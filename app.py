@@ -40,8 +40,4 @@ def display_page(pathname):
 
 # --- Run App ---
 if __name__ == "__main__":
-<<<<<<< HEAD
     app.run(host='0.0.0.0',debug=True, port=8070, dev_tools_hot_reload=False)
-=======
-    app.run(host='0.0.0.0',debug=True, port=8070, dev_tools_hot_reload=False)
->>>>>>> Update dashboard structure and pages
