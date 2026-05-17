@@ -15,13 +15,12 @@ layout = html.Div([
                         {"label": "Movie", "value": "Movie"},
                         {"label": "TV Show", "value": "TV Show"}
                     ],
-                    value="All",  # Սա ապահովում է, որ քարտեզը բեռնվի հենց սկզբից
+                    value="All", 
                     inline=True,
                     persistence=True,
                     persistence_type='session',
                     className="mb-3"
                 ),
-                # dcc.Graph(id="map-plot"), # Հիմնական քարտեզը
             ])
         ]),
         dbc.Row([
@@ -38,7 +37,7 @@ layout = html.Div([
                 ])
             ]), width=7),
 
-                # dcc.Loading-ը ցույց է տալիս, որ սերվերը աշխատում է
+
                 dcc.Loading(
                     id="loading-map",
                     type="dot",
