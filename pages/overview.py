@@ -14,7 +14,7 @@ layout = html.Div([
         dbc.Row([
             dbc.Col(dbc.Card([
                 dbc.CardBody([
-                    html.H5("Բովանդակության աճը (Slide to filter)"),
+                    html.H5("Բովանդակության աճը"),
                     dcc.RangeSlider(
                         id='year-slider', min=int(df['year_added'].min()), max=int(df['year_added'].max()),
                         value=[df['year_added'].min(), df['year_added'].max()],
