@@ -29,7 +29,7 @@ layout = html.Div([
         dbc.Row([
             dbc.Col(dbc.Card([
                 dbc.CardBody([
-                    html.H5("Ժանրերի հիերարխիա (Treemap)"),
+                    html.H5("Ժանրերի հիերարխիա"),
                     dcc.Graph(id='treemap-chart')
                 ])
             ]), width=12)
